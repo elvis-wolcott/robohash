@@ -1,1 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><defs><style>.cls-1{fill:#26a9e0;}.cls-2{fill-opacity:0.2;}.cls-2,.cls-3,.cls-4,.cls-5{stroke:#000;stroke-linecap:round;stroke-linejoin:round;}.cls-2,.cls-4,.cls-5{stroke-width:0.5px;}.cls-3,.cls-4{fill-opacity:0.4;}.cls-5{fill:#461917;}.cls-6{fill:#faaf40;}</style></defs><title>eyes</title><g id="eyes-02"><g id="fill_color" data-name="fill color"><path id="fillcolor" class="cls-1" d="M110.5,122.5c-4,0-17,2-17,17s10,17,17,17,15-5,15-18S114.5,122.5,110.5,122.5Z"/><path id="fillcolor-2" data-name="fillcolor" class="cls-1" d="M153.5,121.5c-4,0-17.5,2.5-17.5,17.5s10.5,16.5,17.5,16.5,16-5,16-18C167,122,157.5,121.5,153.5,121.5Z"/></g><path class="cls-2" d="M110.5,126.5s-13,0-13,12,10,13,13,13,12-2,12-14.52C122.5,137,121.5,127.5,110.5,126.5Z"/><path class="cls-3" d="M154.5,121.5s-20,0-19,18,19,16,19,16,16-2,15-17S158.5,121.5,154.5,121.5Z"/><path class="cls-3" d="M110.5,122.5c-4,0-17,2-17,17s10,17,17,17,15-5,15-18S114.5,122.5,110.5,122.5Z"/><path class="cls-4" d="M140.1,137.73s-2,13.2,12.18,13.2,14.22-10.15,14.22-13.2-3-12.18-12.18-12.18S140.1,132.65,140.1,137.73Z"/><path class="cls-5" d="M109,127s-9,1-9,9,2.5,12.5,10.5,12.5,12-5,12-10S117.5,126.5,109,127Z"/><path class="cls-5" d="M154,126s-10.5.52-11,9.4S147,149,154,149s12-6.26,12-11.49S161.5,125.51,154,126Z"/><path class="cls-6" d="M110.26,134.06a.92.92,0,0,0-.24.05c-.36.13-1,.61-1,2.31,0,2.36,0,3.54,1.26,3.54s2.51,0,2.51-3.54C112.77,134.06,111.12,133.86,110.26,134.06Z"/><path class="cls-6" d="M154.26,134.06a.92.92,0,0,0-.24.05c-.36.13-1,.61-1,2.31,0,2.36,0,3.54,1.26,3.54s2.51,0,2.51-3.54C156.77,134.06,155.12,133.86,154.26,134.06Z"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#26A9E0;}
+	.st1{fill-opacity:0.2;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill-opacity:0.4;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{fill-opacity:0.4;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st4{fill:#461917;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st5{fill:#FAAF40;}
+</style>
+<title>eyes</title>
+<g id="eyes-02">
+	<g id="fill_color">
+		<path id="fillcolor" class="st0" d="M110.5,122.5c-4,0-17,2-17,17s10,17,17,17s15-5,15-18S114.5,122.5,110.5,122.5z"/>
+		<path id="fillcolor-2" class="st0" d="M153.5,121.5c-4,0-18,2.3-18,17.3s11,16.7,18,16.7s16-5,16-18
+			C167,122,157.5,121.5,153.5,121.5z"/>
+	</g>
+	<path class="st1" d="M110.5,126.5c0,0-13,0-13,12s10,13,13,13s12-2,12-14.5C122.5,137,121.5,127.5,110.5,126.5z"/>
+	<path class="st2" d="M154.5,121.5c0,0-20,0-19,18s19,16,19,16s16-2,15-17S158.5,121.5,154.5,121.5z"/>
+	<path class="st2" d="M110.5,122.5c-4,0-17,2-17,17s10,17,17,17s15-5,15-18S114.5,122.5,110.5,122.5z"/>
+	<path class="st3" d="M140.1,137.7c0,0-2,13.2,12.2,13.2s14.2-10.1,14.2-13.2s-3-12.2-12.2-12.2S140.1,132.6,140.1,137.7z"/>
+	<path class="st4" d="M109,127c0,0-9,1-9,9s2.5,12.5,10.5,12.5s12-5,12-10S117.5,126.5,109,127z"/>
+	<path class="st4" d="M154,126c0,0-10.5,0.5-11,9.4s4,13.6,11,13.6s12-6.3,12-11.5S161.5,125.5,154,126z"/>
+	<path class="st5" d="M110.3,134.1c-0.1,0-0.2,0-0.2,0.1c-0.4,0.1-1,0.6-1,2.3c0,2.4,0,3.5,1.3,3.5s2.5,0,2.5-3.5
+		C112.8,134.1,111.1,133.9,110.3,134.1z"/>
+	<path class="st5" d="M154.3,134.1c-0.1,0-0.2,0-0.2,0.1c-0.4,0.1-1,0.6-1,2.3c0,2.4,0,3.5,1.3,3.5s2.5,0,2.5-3.5
+		C156.8,134.1,155.1,133.9,154.3,134.1z"/>
+</g>
+</svg>
