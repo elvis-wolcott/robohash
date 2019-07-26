@@ -4,7 +4,8 @@ export default class Robohash {
 
     static svg(text) {
         const hash = this._hash(text);
-        return this._svgTemplate(this.colors[hash[0]], this.bgColors[hash[1]], hash[2], hash[3], hash[4], hash[5], hash[6]);
+        // reuses hash[0] so that the background color always compliments the foreground
+        return this._svgTemplate(this.colors[hash[0]], this.bgColors[hash[0]], hash[2], hash[3], hash[4], hash[5], hash[6]);
     }
 
     static render(text, $element) {
@@ -53,35 +54,37 @@ export default class Robohash {
             '#ff9800', // orange-500
             '#E53935', // red-600
             '#FDD835', // yellow-600
-            '#3f51b5', // indigo-500
+            '#2745C4', // indigo-500-custom
             '#03a9f4', // light-blue-500
             '#9c27b0', // purple-500
-            '#009688', // teal-500
-            '#EC407A', // pink-400
-            '#8bc34a', // light-green-500
-            '#795548' // brown-500
+            '#11A387', // teal-500-custom
+            '#EA2D75', // pink-400
+            '#82C11F', // light-green-500-custom
+            '#913C29' // brown-500-custom
         ]
     }
 
     static get bgColors() {
         return [
-            /* Red  */
-            '#FF8A80', // red-a100
-            '#F48FB1', // pink-200
-            '#ea80fc', // purple-a100
-
-            /* Blue */
-            '#8c9eff', // indigo-a100
-            '#80d8ff', // light-blue-a100
-            '#CFD8DC', // blue-grey-100
-
-            /* Green */
-            '#1DE9B6', // teal-a400
-            '#00C853', // green-a-700
-
-            /* Orange */
+            '#58DDB1', // teal-a400-custom
+            '#58DDB1', // teal-a400-custom
+            '#EB8DFF', // purple-a100-custom
+            
             '#FF9E80', // deep-orange-a100
-            '#FFE57F' // amber-a100
+            '#FF8A80', // red-a100
+            '#FFD869', // amber-a100-custom
+            
+            
+            '#FF8A80', // red-a100
+            '#8c9eff', // indigo-a100
+            
+            '#FF9E80', // deep-orange-a100
+            '#88E9FF', // light-blue-a100
+            
+            
+            
+            
+            
         ]
     }
 
