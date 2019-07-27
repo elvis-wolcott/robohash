@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>robohash.svg</title>
+    <title>robohash</title>
     <style type="text/css">
     html,
     body {
@@ -25,12 +25,13 @@
     <div class="robohash" id="robohash"></div>
     </div>
     <script type="module">
-        import RH from './src/js/robohash.js';
-        //let Robohash = new RH();
-        let Robohash = RH;
-        const now = Date.now()
-        document.querySelectorAll('.robohash').forEach((e, i) => Robohash.render(now + 'identicon' + i, e));
-        document.getElementById('input').addEventListener('input', (event) => {  document.querySelectorAll('.robohash').forEach((e, i) => Robohash.render(event.target.value+i, e)) } )
+        import Robohash from './dist/robohash.min.js';
+        const rh = new Robohash({
+            path: './dist/'
+        });
+        const now = Date.now();
+        rh.render(now.toString(), document.getElementById('robohash'));
+        
     </script>
 </body>
 

@@ -28,6 +28,10 @@
         height: 100%;
     }
 
+    input::placeholder {
+        color: white;
+    }
+
     input {
         background: none;
         outline: none;
@@ -37,7 +41,7 @@
         font-family: Arial;
         padding: 16px;
         margin: 24px;
-        text-align: center;
+        text-align: left;
         border-bottom: 1px solid white;
     }
     </style>
@@ -47,7 +51,7 @@
     <div class="container">
         <div>
             <div class="robohash" id="robohash"></div>
-            <input id="input" placeholder="Robohash a Text" autofocus="true">
+            <input id="input" placeholder="Robohash some text" autofocus="true">
         </div>
         <div class="robohash small"></div>
         <div class="robohash small"></div>
@@ -132,12 +136,13 @@
         <div class="robohash small"></div>
     </div>
     <script type="module">
-        import RH from './src/js/robohash.js';
-        //let Robohash = new RH();
-        let Robohash = RH;
+        import Robohash from './dist/robohash.min.js';
+        const rh = new Robohash({
+            path: './dist/'
+        });
         const now = Date.now()
-        document.querySelectorAll('.robohash').forEach((e, i) => Robohash.render(now + 'identicon' + i, e));
-        document.getElementById('input').addEventListener('input', (event) => {  document.querySelectorAll('.robohash').forEach((e, i) => Robohash.render(event.target.value+i, e)) } )
+        document.querySelectorAll('.robohash').forEach((e, i) => rh.render(now + 'identicon' + i, e));
+        document.getElementById('input').addEventListener('input', (event) => {  document.querySelectorAll('.robohash').forEach((e, i) => rh.render(event.target.value+i, e)) } )
     </script>
 </body>
 
