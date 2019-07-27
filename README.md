@@ -1,12 +1,14 @@
 # Robohash SVG
 
-SVG+JS Identicons based on [Robohash](https://robohash.org). The original library is designed to run on a server while _Robohash SVG_ is designed to run in browsers. 
+SVG+JS Identicons based on [Robohash](https://robohash.org). 
+The original library is designed to run on a server while _Robohash SVG_ is designed to run in browsers. 
 
 1.8K of JS + 94K of SVG = **10,000,000** unique robots.
 
 ![Robohash](./robohash-1.png)
 
 This was an open source contribution by [Nimiq - the browser-based blockchain](https://nimiq.com)
+
 It has been revived and cleaned up by Elvis Wolcott.
 
 ## Usage
