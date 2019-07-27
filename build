@@ -41,4 +41,6 @@ echo '</svg>' >> dist/robohash.min.svg
 
 rm -rf tmp
 
-uglifyjs --compress --mangle -o dist/robohash.min.js -- src/js/robohash.js
+#babel src/js/robohash.js -o dist/robohash.js
+cp src/js/robohash.js dist/robohash.js
+uglifyjs --compress --mangle -o dist/robohash.min.js -- dist/robohash.js
